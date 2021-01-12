@@ -1,5 +1,8 @@
 # MacOS
+### poppler for pdf2image
+### zbar for pyzbar
 ```
+brew install poppler
 brew install zbar
 ```
 
