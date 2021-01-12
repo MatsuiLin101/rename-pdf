@@ -13,6 +13,7 @@ def pdf_to_png(folder, file_name):
     barcode = scan_barcode(p2p_name)
     if barcode is not None:
         rename_pdf(barcode, folder, file_name)
+    os.remove(p2p_name)
     return barcode
 
 
