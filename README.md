@@ -1,7 +1,5 @@
 # MacOS
 ```
-brew install tesseract
-brew install poppler
 brew install zbar
 ```
 

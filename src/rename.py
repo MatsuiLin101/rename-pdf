@@ -7,7 +7,7 @@ from pyzbar import pyzbar
 
 def pdf_to_png(folder, file_name):
     path = os.path.join(folder, file_name)
-    pages = convert_from_path(path, 800)
+    pages = convert_from_path(path, 300)
     p2p_name = path.replace('.pdf', '.png')
     pages[0].save(p2p_name)
     barcode = scan_barcode(p2p_name)
